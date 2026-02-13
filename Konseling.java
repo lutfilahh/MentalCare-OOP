@@ -2,7 +2,7 @@ import java.sql.Date;
 
 class MentalCaare {
     int idKonseling, idUser, idPsikolog;
-    Date tanggalKonseling; 
+    Date tanggalKonseling;
     String status;
 
     public MentalCaare(int idKonseling, int idUser, int idPsikolog, Date tanggalKonseling, String status){
